@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier Prime", monospace;
+  }
+body {
+    font-family: 'Courier New', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #202020;
+}
+
+.contour {
+    position: relative;
+    background-color: #130e0e;
+    border-radius: 10px;
+    padding: 40px 30px 30px;
+  border-radius: 20px;
+    box-shadow: 0 0 10px rgba(153, 132, 132, 0.1);
+    overflow: hidden;
+     min-width: 350px;
+     min-height: 400px;
+}
+.contour span{
+    color: #fff;
+    position: relative;
+    display: grid;
+    width: 80px;
+    place-items: center;
+    margin: 8px;
+    height: 80px;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15),
+      inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75),
+      10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.calculator span:active{
+    filter:brightness(1.25)
+}
+.calculator{
+    position:relative;
+    display:grid;
+}
+.calculator .claers{
+ grid-column: span 2;  
+width:186px ;
+background: red;
+}
+.calculator .plus{
+    grid-row: span 2;
+    height: 174px;
+}
+.calculator .egale{
+    grid-column: span 2;
+    width: 187px;
+    background: #f39c1a;
+}
+.calculator .gg{
+  position: relative;
+  grid-column: span 4;
+  height: 100px;
+  width: calc(100% - 10px);
+  left: 10px;
+  border: none;
+  outline: none;
+  background-color: #a7af7c;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+  text-align: right;
+  padding: 10px;
+  font-size: 2em;
+}
