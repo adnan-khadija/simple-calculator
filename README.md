@@ -1,6 +1,6 @@
 # Simple Calculator
 
-This is a basic calculator application implemented in JavaScript,HTML and CSS. It allows users to perform simple arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a basic calculator application implemented using JavaScript, HTML, and CSS. It enables users to perform elementary arithmetic operations, including addition, subtraction, multiplication, and division.
 
 ## Features
 - Addition
